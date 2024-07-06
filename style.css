@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(217, 177, 250);
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+}
+/*imagen*/
+.caja02 img{
+    width: 600;
+    height: 300px;
+}
+
+/*magia*/
+
+/*lado izquierdo*/
+.contenedor{
+    display: flex;
+}
+
+.caja01, .caja03{
+    flex: 1;
+    padding: 30px;
+}
+
+.caja02{
+    flex: 1;
+    padding: 60px;
+}
+
+.caja01 img{
+    width: 200px;
+    height: 800px;
+}
+
+.meow img{
+    width: 10px;
+    height: 10px;
+}
+
+.caja02 h2{
+    text-align: center;
+    font-size: 35px;
+    
+    color: rgb(171, 95, 190);
+}
+
+.caja02 p{
+    text-align:justify;
+    color: rgb(87, 79, 95);
+    font-size: px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.caja03 img{
+    width: 200px;
+    height: 800px;
+}
+
+.helo img{
+    width: 20px;
+    height: 30px;
+}
+
+.marquito{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
